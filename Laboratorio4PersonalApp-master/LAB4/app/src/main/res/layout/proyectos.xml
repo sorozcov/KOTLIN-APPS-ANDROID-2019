@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="PROYECTOS"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:id="@+id/textView3"
+            android:fontFamily="sans-serif-smallcaps" android:textAlignment="center" android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            android:layout_marginBottom="20dp" app:layout_constraintBottom_toTopOf="@+id/lab2"/>
+    <Button
+            android:text="Laboratorio 3"
+            android:layout_width="160dp"
+            android:layout_height="69dp"
+            android:id="@+id/lab3" android:background="#FF0017"
+            app:layout_constraintTop_toBottomOf="@+id/lab2" android:layout_marginBottom="80dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="Laboratorio 2"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:id="@+id/lab2" android:background="#FF0017"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" android:layout_marginBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/lab3"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <ImageView
+            android:layout_width="233dp"
+            android:layout_height="129dp" app:srcCompat="@drawable/and"
+            android:id="@+id/imageView5" android:layout_marginTop="45dp"
+            android:layout_marginBottom="14dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView3" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="37dp" android:layout_marginEnd="37dp"/>
+</android.support.constraint.ConstraintLayout>
