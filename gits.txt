@@ -5,3 +5,4 @@ https://github.com/sorozcov/LAB5
 https://github.com/sorozcov/MusicApp.git
 https://github.com/sorozcov/lab7
 https://github.com/Miguel219/UVGApp
+https://github.com/DouglasDL28/ProyectoApp
